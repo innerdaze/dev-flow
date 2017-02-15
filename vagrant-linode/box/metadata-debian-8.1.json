@@ -1,0 +1,12 @@
+{
+  "name": "displague/debian-8.1",
+  "description": "This box creates Debian 8.1 on a Linode",
+  "versions": [{
+    "version": "0.1.0",
+    "providers": [{
+      "name": "linode",
+      "url": "https://github.com/displague/vagrant-linode/raw/master/box/linode.box",
+      "distribution": "debian 8.1"
+    }]
+  }]
+}

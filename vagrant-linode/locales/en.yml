@@ -1,0 +1,116 @@
+en:
+  vagrant_linode:
+    info:
+      off: "Linode is off"
+      not_created: "Linode has not been created"
+      already_active: "Linode is already active"
+      already_off: "Linode is already off"
+      creating: "Creating a new linode..."
+      created: "Created a new linode... %{linodeid}"
+      booting: "Booting Linode %{linodeid} ..."
+      linode_ip: "Assigned IP address: %{ip}"
+      linode_private_ip: "Private IP address: %{ip}"
+      destroying: "Destroying the linode..."
+      powering_off: "Powering off the linode..."
+      powering_on: "Powering on the linode..."
+      rebuilding: "Rebuilding the linode..."
+      reloading: "Rebooting the linode..."
+      creating_user: "Creating user account: %{user}..."
+      modifying_sudo: "Modifying sudoers file to remove tty requirement..."
+      modifying_host: "Modifying hostname: %{name}..."
+      using_key: "Using existing SSH key: %{name}"
+      creating_key: "Creating new SSH key: %{name}..."
+      trying_rsync_install: "Rsync not found, attempting to install with yum..."
+      rsyncing: "Rsyncing folder: %{hostpath} => %{guestpath}..."
+      rsync_missing: "The rsync executable was not found in the current path."
+    states:
+      short_not_created: "Not Created"
+      short_boot_failed: "Boot Failed"
+      short_being_created: "Being Created"
+      short_brand_new: "Brand New"
+      short_active: "Active"
+      short_off: "Powered Off"
+      short_shutting_down: "Shutting Down"
+      long_not_created: "Linode has not been created"
+      long_boot_failed: "Linode boot failed"
+      long_being_created: "Linode is created"
+      long_brand_new: "Linode is brand new"
+      long_active: "Linode is active"
+      long_off: "Linode is powered off"
+      long_shutting_down: "Linode is shutting down"
+    config:
+      api_key: "API Key is required"
+      token: "Config option token is deprecated. Use api_key."
+      private_key: "SSH private key path is required"
+      public_key: "SSH public key not found: %{key}"
+      disk_too_large: "Disk Images use more drive space than plan allocates"
+    errors:
+      public_key: |-
+        There was an issue reading the public key at:
+
+        Path: %{path}
+
+        Please check the file's permissions.
+      api_status: |-
+        There was an issue with the request made to the Linode
+        API at:
+
+        Path: %{path}
+        URI Params: %{params}
+
+        The response status from the API was:
+
+        Status: %{status}
+        Response: %{response}
+      rsync: |-
+        There was an error when attemping to rsync a share folder.
+        Please inspect the error message below for more info.
+
+        Host path: %{hostpath}
+        Guest path: %{guestpath}
+        Error: %{stderr}
+      json: |-
+        There was an issue with the JSON response from the Linode
+        API at:
+
+        Path: %{path}
+        URI Params: %{params}
+
+        The response JSON from the API was:
+
+        Response: %{response}
+      result_match: |-
+        The result collection for %{collection_name}:
+
+        %{sub_obj}
+
+        Contained no object with the value "%{value}" for the the
+        key "%{key}".
+
+        Please ensure that the configured value exists in the collection.
+      certificate: |-
+        The secure connection to the Linode API has failed. Please
+        ensure that your local certificates directory is defined in the
+        provider config.
+
+            config.vm.provider :linode do |vm|
+              vm.ca_path = "/path/to/ssl/ca/cert.crt"
+            end
+
+        This is generally caused by the OpenSSL configuration associated
+        with the Ruby install being unaware of the system specific ca
+        certs.
+      local_ip: |-
+        The Linode provider was unable to determine the host's IP.
+      distro_match: !-
+        The provider does not support your configurations chosen Distribution %{distro}.
+        Supported distributions can be found at the following url - https://www.linode.com/distributions
+      kernel_match: !-
+        The provider does not support your configurations chosen Kernel %{kernel}.
+        Supported kernels can be found at the following url - https://www.linode.com/kernels
+      disk_size: !-
+        The space which you have specified for your Disk Images is too large for your
+        plans allocations. Current = %{current}MB, Max = %{max}
+      plan_id: !-
+        The plan which you have specified ( %{plan} ) is not available at this time,
+        for more information regarding plans review the following url - https://www.linode.com/pricing

@@ -1,0 +1,10 @@
+{
+  "salt": {
+    "protocol": "https",
+    "host": "localhost",
+    "port": "8000"
+  },
+  "slack": {
+    "apiKey": ""
+  }
+}
