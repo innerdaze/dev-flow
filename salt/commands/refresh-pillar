@@ -1,0 +1,1 @@
+salt '*' saltutil.refresh_pillar

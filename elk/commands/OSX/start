@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Check for .elk file in working directory - die if not found
+[[ -e ".elk" ]] || { echo >&2 "Current directory is not elk project directory. Cannot run."; exit 1; }
+
+echo "Launching ELK..."
+
+CWD=`pwd`
+
+launch_in_new_terminal() {
+  if [ -z "$1" ] || [ -z "$2" ]; then
+    echo 2&> "Incorrect Usage: Required arguments (name, command)"
+    exit 2
+  fi
+
+  NAME=$1
+  PROCESS=$2
+  LAUNCHER=launchers/OSX/$1.command
+
+  [[ -d "launchers/OSX" ]] || { mkdir -p launchers/OSX; }
+
+  [[ -e "$LAUNCHER" ]] || { echo $PROCESS > $LAUNCHER; chmod +x $LAUNCHER; }
+
+  open $LAUNCHER
+}
+
+# Elastic Search
+echo "Launching Elastic Search..."
+launch_in_new_terminal launch-elastic-search "cd $CWD/elastic-search; ./commands/start"
+
+# LogStash
+echo "Launching LogStash..."
+launch_in_new_terminal launch-logstash "cd $CWD/logstash; ./commands/start"
+
+# Kibana
+echo "Launching Kibana..."
+launch_in_new_terminal launch-kibana "cd $CWD/kibana; ./commands/start"

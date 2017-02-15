@@ -1,0 +1,4 @@
+#!/bin/bash
+
+launchctl unload /Library/LaunchDaemons/com.saltstack.salt.syndic.plist
+launchctl load -w /Library/LaunchDaemons/com.saltstack.salt.syndic.plist

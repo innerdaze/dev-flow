@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Check for .elk file in working directory - die if not found
+[[ -e ".elk" ]] || { echo >&2 "Current directory is not elk project directory. Cannot run."; exit 1; }
+
+echo "Launching ELK..."
+
+CWD=`pwd`
+
+# Elastic Search
+echo "Launching Elastic Search..."
+cd elastic-search
+x-terminal-emulator -e ./commands/start
+
+# LogStash
+echo "Launching LogStash..."
+cd $CWD/logstash
+x-terminal-emulator -e ./commands/start
+
+# Kibana
+echo "Launching Kibana..."
+cd $CWD/kibana
+x-terminal-emulato -e ./commands/start
+
+cd $CWD

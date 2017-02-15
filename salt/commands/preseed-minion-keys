@@ -1,0 +1,36 @@
+#!/bin/bash
+
+if [ `whoami` != root ]; then
+	echo "Error: Must execute using sudo"
+	exit 2
+fi
+
+if [ -z "$1" ]; then
+	echo "Incorrect Usage: Must provide id for minion (No space or special characters)"
+	exit 1
+fi
+
+minion_id=$1
+minion_user=$SUDO_USER
+minion_group=`id -g -n $SUDO_USER`
+
+while true; do
+	read -p "Creating keys with settings: user=$minion_user, group=$minion_group. Is this OK? [y/N]: " -n 1 answer
+	echo
+
+	case $answer in
+		[Yy]* ) break;;
+		[Nn]* ) exit 2;;
+		* ) echo "Please answer y or n";;
+	esac
+done
+
+# Generate Keys
+salt-key --gen-keys=$1
+
+# Set correct permissions on keys
+chown $minion_user:$minion_group $minion_id.pem
+chown $minion_user:$minion_group $minion_id.pub
+
+# Install keys in master
+cp $minion_id.pub /etc/salt/pki/master/minions/$minion_id

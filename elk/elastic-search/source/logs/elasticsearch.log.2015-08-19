@@ -1,0 +1,88 @@
+[2015-08-19 11:11:17,638][INFO ][node                     ] [Mentallo] version[1.6.0], pid[92037], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2015-08-19 11:11:17,640][INFO ][node                     ] [Mentallo] initializing ...
+[2015-08-19 11:11:17,648][INFO ][plugins                  ] [Mentallo] loaded [], sites []
+[2015-08-19 11:11:17,715][INFO ][env                      ] [Mentallo] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [47.4gb], net total_space [464.7gb], types [hfs]
+[2015-08-19 11:11:21,408][INFO ][node                     ] [Mentallo] initialized
+[2015-08-19 11:11:21,408][INFO ][node                     ] [Mentallo] starting ...
+[2015-08-19 11:11:21,549][INFO ][transport                ] [Mentallo] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.67:9300]}
+[2015-08-19 11:11:21,581][INFO ][discovery                ] [Mentallo] elasticsearch/xr50bt1fRxOUBWLC9twcog
+[2015-08-19 11:11:25,369][INFO ][cluster.service          ] [Mentallo] new_master [Mentallo][xr50bt1fRxOUBWLC9twcog][Lees-MBP.home][inet[/192.168.1.67:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-19 11:11:25,417][INFO ][http                     ] [Mentallo] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.67:9200]}
+[2015-08-19 11:11:25,417][INFO ][node                     ] [Mentallo] started
+[2015-08-19 11:11:25,450][INFO ][gateway                  ] [Mentallo] recovered [5] indices into cluster_state
+[2015-08-19 11:11:30,811][INFO ][cluster.service          ] [Mentallo] added {[logstash-Lees-MBP.home-92244-11624][N3as67IIRuKLcPa75aLGwg][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-Lees-MBP.home-92244-11624][N3as67IIRuKLcPa75aLGwg][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false}])
+[2015-08-19 11:11:31,966][INFO ][cluster.metadata         ] [Mentallo] [logstash-2015.08.19] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2015-08-19 11:11:32,172][INFO ][cluster.metadata         ] [Mentallo] [logstash-2015.08.19] update_mapping [logstash] (dynamic)
+[2015-08-19 11:11:55,394][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:12:25,386][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:12:55,386][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:13:25,388][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:13:55,393][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:14:25,393][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:14:55,398][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:15:25,401][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:15:55,402][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:16:25,406][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:16:55,410][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:17:25,414][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:17:55,418][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.6gb[10.4%], replicas will not be assigned to this node
+[2015-08-19 11:18:25,429][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.4gb[10.4%], replicas will not be assigned to this node
+[2015-08-19 11:18:55,426][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:19:25,430][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:19:55,434][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:20:25,438][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:20:55,441][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.7gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:21:25,440][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.7gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:21:55,443][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.5gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:22:25,444][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:22:55,448][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:23:25,449][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.6gb[10.4%], replicas will not be assigned to this node
+[2015-08-19 11:23:55,455][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:24:25,453][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:24:55,457][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:25:25,458][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:25:55,461][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:26:25,462][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:26:55,466][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:27:25,467][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.1gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:27:55,471][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:28:25,471][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.6gb[10.4%], replicas will not be assigned to this node
+[2015-08-19 11:28:55,477][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:29:25,475][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.9gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:29:55,479][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.7gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:30:25,479][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.7gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:30:55,480][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.6gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:31:25,485][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:31:55,486][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:32:25,487][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:32:55,492][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:33:25,494][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:33:55,498][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:34:25,498][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:34:55,503][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:35:25,503][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:35:55,507][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 47.4gb[10.2%], replicas will not be assigned to this node
+[2015-08-19 11:36:25,511][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:36:55,520][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.6gb[10.4%], replicas will not be assigned to this node
+[2015-08-19 11:37:25,520][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.3gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:37:55,521][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:38:25,525][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:38:55,530][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:39:25,535][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:39:55,541][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:40:25,546][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:40:55,545][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:41:25,549][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:41:55,555][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:42:25,560][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 48.2gb[10.3%], replicas will not be assigned to this node
+[2015-08-19 11:42:55,565][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:43:25,570][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50gb[10.7%], replicas will not be assigned to this node
+[2015-08-19 11:43:55,570][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50.7gb[10.9%], replicas will not be assigned to this node
+[2015-08-19 11:44:25,574][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50.7gb[10.9%], replicas will not be assigned to this node
+[2015-08-19 11:44:55,576][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50.7gb[10.9%], replicas will not be assigned to this node
+[2015-08-19 11:45:25,576][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50.7gb[10.9%], replicas will not be assigned to this node
+[2015-08-19 11:45:55,580][INFO ][cluster.routing.allocation.decider] [Mentallo] low disk watermark [85%] exceeded on [xr50bt1fRxOUBWLC9twcog][Mentallo] free: 50.9gb[10.9%], replicas will not be assigned to this node
+[2015-08-19 11:46:04,944][INFO ][node                     ] [Mentallo] stopping ...
+[2015-08-19 11:46:05,007][INFO ][node                     ] [Mentallo] stopped
+[2015-08-19 11:46:05,008][INFO ][node                     ] [Mentallo] closing ...
+[2015-08-19 11:46:05,014][INFO ][node                     ] [Mentallo] closed

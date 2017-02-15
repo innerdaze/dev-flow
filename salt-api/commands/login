@@ -1,0 +1,14 @@
+#!/bin/bash
+
+INCORRECT_USAGE_ERROR="Incorrect Usage: arguments required (username, password)."
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+  echo $INCORRECT_USAGE_ERROR
+  exit
+fi
+
+curl -ksi https://localhost:8000/login \
+-H "Accept: application/json" \
+-d username="$1" \
+-d password="$2" \
+-d eauth='pam'

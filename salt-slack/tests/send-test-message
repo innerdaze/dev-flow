@@ -1,0 +1,15 @@
+#!/bin/bash
+
+INCORRECT_USAGE_ERROR="Incorrect Usage: required arguments (channel, message, user, opt[minion='*'])."
+TARGET_SELECTOR="*"
+
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
+  echo $INCORRECT_USAGE_ERROR
+  exit 1
+fi
+
+if [ ! -z "$4" ]; then
+  TARGET_SELECTOR=$4
+fi
+
+salt $TARGET_SELECTOR slack.post_message channel="$1" message="$2" from_name="$3"

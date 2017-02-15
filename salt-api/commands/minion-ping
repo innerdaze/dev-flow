@@ -1,0 +1,15 @@
+#!/bin/bash
+
+INCORRECT_USAGE_ERROR="Incorrect Usage: arguments required (auth_token)."
+
+if [ -z "$1" ]; then
+  echo $INCORRECT_USAGE_ERROR
+  exit
+fi
+
+curl -ksi https://localhost:8000 \
+-H "Accept: application/x-yaml" \
+-H "X-Auth-Token: $1" \
+-d client='local' \
+-d tgt='*' \
+-d fun='test.ping'

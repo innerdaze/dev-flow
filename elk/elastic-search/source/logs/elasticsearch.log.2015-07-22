@@ -1,0 +1,812 @@
+[2015-07-22 14:19:11,636][INFO ][node                     ] [Arize] version[1.6.0], pid[67276], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2015-07-22 14:19:11,638][INFO ][node                     ] [Arize] initializing ...
+[2015-07-22 14:19:11,644][INFO ][plugins                  ] [Arize] loaded [], sites []
+[2015-07-22 14:19:11,707][INFO ][env                      ] [Arize] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [24.7gb], net total_space [464.7gb], types [hfs]
+[2015-07-22 14:19:14,266][INFO ][node                     ] [Arize] initialized
+[2015-07-22 14:19:14,267][INFO ][node                     ] [Arize] starting ...
+[2015-07-22 14:19:14,345][INFO ][transport                ] [Arize] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.67:9300]}
+[2015-07-22 14:19:14,364][INFO ][discovery                ] [Arize] elasticsearch/9K0-ERLCSOaUrd8mT8Ex1w
+[2015-07-22 14:19:18,141][INFO ][cluster.service          ] [Arize] new_master [Arize][9K0-ERLCSOaUrd8mT8Ex1w][Lees-MBP.home][inet[/192.168.1.67:9300]], reason: zen-disco-join (elected_as_master)
+[2015-07-22 14:19:18,176][INFO ][http                     ] [Arize] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.67:9200]}
+[2015-07-22 14:19:18,177][INFO ][node                     ] [Arize] started
+[2015-07-22 14:19:18,197][INFO ][gateway                  ] [Arize] recovered [3] indices into cluster_state
+[2015-07-22 14:19:48,157][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:19:48,158][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:20:18,155][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:20:48,156][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:21:18,160][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:21:18,160][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:21:48,164][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:22:18,164][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:22:18,165][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:22:48,167][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:23:18,168][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:23:18,169][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:23:48,173][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:24:18,176][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:24:18,177][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:24:48,182][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:25:18,186][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:25:18,187][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:25:48,189][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:26:18,190][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:26:18,191][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:26:48,191][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:27:18,190][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:27:48,194][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:27:48,195][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:28:18,194][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:28:48,195][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:28:48,196][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:29:18,196][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:29:48,196][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:29:48,197][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:30:18,199][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:30:48,201][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:30:48,202][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:31:18,200][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:31:48,204][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:31:48,205][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:32:18,205][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:32:48,206][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:32:48,207][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:33:18,207][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:33:48,209][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:33:48,209][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:34:18,209][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:34:48,211][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:34:48,211][INFO ][cluster.routing.allocation.decider] [Arize] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:35:03,762][INFO ][cluster.service          ] [Arize] added {[logstash-Lees-MBP.home-67977-11624][PcL4nrTNT9O8qs3IoJVGvQ][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-Lees-MBP.home-67977-11624][PcL4nrTNT9O8qs3IoJVGvQ][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false}])
+[2015-07-22 14:35:04,990][INFO ][cluster.metadata         ] [Arize] [logstash-2015.07.18] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2015-07-22 14:35:18,213][WARN ][cluster.routing.allocation.decider] [Arize] high disk watermark [90%] exceeded on [9K0-ERLCSOaUrd8mT8Ex1w][Arize] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:35:24,775][INFO ][node                     ] [Arize] stopping ...
+[2015-07-22 14:35:24,816][INFO ][node                     ] [Arize] stopped
+[2015-07-22 14:35:24,816][INFO ][node                     ] [Arize] closing ...
+[2015-07-22 14:35:24,823][INFO ][node                     ] [Arize] closed
+[2015-07-22 14:35:36,420][INFO ][node                     ] [Nick Fury] version[1.6.0], pid[68047], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2015-07-22 14:35:36,420][INFO ][node                     ] [Nick Fury] initializing ...
+[2015-07-22 14:35:36,425][INFO ][plugins                  ] [Nick Fury] loaded [], sites []
+[2015-07-22 14:35:36,466][INFO ][env                      ] [Nick Fury] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [24.7gb], net total_space [464.7gb], types [hfs]
+[2015-07-22 14:35:38,536][INFO ][node                     ] [Nick Fury] initialized
+[2015-07-22 14:35:38,536][INFO ][node                     ] [Nick Fury] starting ...
+[2015-07-22 14:35:38,598][INFO ][transport                ] [Nick Fury] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.67:9300]}
+[2015-07-22 14:35:38,615][INFO ][discovery                ] [Nick Fury] elasticsearch/G7zKSmv8RveT3Xp9x483SQ
+[2015-07-22 14:35:42,385][INFO ][cluster.service          ] [Nick Fury] new_master [Nick Fury][G7zKSmv8RveT3Xp9x483SQ][Lees-MBP.home][inet[/192.168.1.67:9300]], reason: zen-disco-join (elected_as_master)
+[2015-07-22 14:35:42,428][INFO ][http                     ] [Nick Fury] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.67:9200]}
+[2015-07-22 14:35:42,429][INFO ][node                     ] [Nick Fury] started
+[2015-07-22 14:35:42,449][INFO ][gateway                  ] [Nick Fury] recovered [4] indices into cluster_state
+[2015-07-22 14:35:46,145][INFO ][cluster.service          ] [Nick Fury] added {[logstash-Lees-MBP.home-68048-11624][g1G6nPEZTWKEpckVBE11zg][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-Lees-MBP.home-68048-11624][g1G6nPEZTWKEpckVBE11zg][Lees-MBP.home][inet[/192.168.1.67:9301]]{client=true, data=false}])
+[2015-07-22 14:35:55,284][INFO ][cluster.metadata         ] [Nick Fury] [logstash-2015.07.22] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2015-07-22 14:35:55,492][INFO ][cluster.metadata         ] [Nick Fury] [logstash-2015.07.22] update_mapping [logstash] (dynamic)
+[2015-07-22 14:36:12,395][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:36:12,396][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:36:42,399][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:37:12,400][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:37:12,401][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:37:42,413][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:38:12,404][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:38:12,405][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:38:42,409][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:39:12,413][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:39:12,414][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:39:42,416][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:40:12,421][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:40:12,422][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:40:42,424][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:41:12,424][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:41:12,425][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:41:42,422][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:42:12,426][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:42:12,427][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:42:42,430][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:43:12,432][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:43:12,433][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:43:42,438][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:44:12,442][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:44:12,443][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:44:42,444][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:45:12,449][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:45:12,450][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:45:42,452][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:46:12,452][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:46:12,453][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:46:42,454][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:47:12,456][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:47:12,457][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:47:42,456][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:48:12,459][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:48:12,460][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:48:42,466][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:49:12,461][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:49:12,462][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:49:42,461][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:50:12,466][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:50:12,466][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:50:42,466][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:51:12,470][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:51:12,471][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:51:42,471][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:52:12,476][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:52:12,477][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:52:42,478][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:53:12,479][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:53:12,480][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:53:42,482][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:54:12,483][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:54:12,483][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:54:42,487][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:55:12,488][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:55:12,489][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:55:42,490][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:56:12,494][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:56:12,495][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:56:42,494][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:57:12,498][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:57:12,499][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:57:42,500][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:58:12,506][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:58:12,506][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:58:42,507][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:59:12,511][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 14:59:12,512][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 14:59:42,511][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:00:12,517][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:00:12,518][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:00:42,518][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:01:12,522][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:01:12,523][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:01:42,523][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:02:12,528][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:02:12,529][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:02:42,530][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:03:12,530][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:03:12,531][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:03:42,532][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:04:12,535][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:04:12,535][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:04:42,535][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:05:12,537][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:05:12,538][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:05:42,540][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:06:12,541][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:06:12,542][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:06:42,544][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:07:12,545][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:07:12,545][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:07:42,547][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:08:12,551][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:08:12,552][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:08:42,552][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:09:12,555][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:09:12,555][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:09:42,557][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:10:12,558][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:10:12,558][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:10:42,561][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:11:12,567][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:11:12,568][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:11:42,568][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:12:12,568][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:12:12,569][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:12:42,574][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:13:12,576][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:13:12,576][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:13:42,582][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:14:12,583][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:14:12,584][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:14:42,588][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:15:12,588][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:15:12,589][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:15:42,591][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:16:12,592][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:16:12,592][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:16:42,596][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:17:12,601][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:17:12,601][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:17:42,602][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:18:12,604][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:18:12,604][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:18:42,607][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:19:12,610][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:19:12,611][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:19:42,614][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:20:12,622][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:20:12,622][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:20:42,623][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:21:12,625][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:21:12,625][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:21:42,626][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:22:12,629][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:22:12,630][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:22:42,632][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:23:12,634][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:23:12,635][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:23:42,634][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:24:12,636][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:24:12,637][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:24:42,637][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:25:12,641][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:25:12,641][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:25:42,644][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:26:12,648][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:26:12,648][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:26:42,652][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:27:12,654][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:27:12,654][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:27:42,659][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:28:12,659][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:28:12,660][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:28:42,658][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:29:12,660][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:29:12,661][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:29:42,662][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:30:12,663][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:30:12,664][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:30:42,668][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:31:12,671][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:31:12,671][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:31:42,670][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:32:12,672][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:32:12,672][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:32:42,673][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:33:12,674][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:33:12,674][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:33:42,681][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:34:12,683][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:34:12,684][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:34:42,683][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:35:12,687][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:35:12,687][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:35:42,687][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:36:12,688][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:36:12,688][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:36:42,695][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:37:12,696][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:37:12,696][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:37:42,702][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:38:12,702][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:38:12,703][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:38:42,704][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:39:12,705][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:39:12,706][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:39:42,709][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:40:12,713][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:40:12,714][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:40:42,718][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:41:12,720][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:41:12,721][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:41:42,724][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:42:12,725][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:42:12,726][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:42:42,728][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:43:12,733][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:43:12,734][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:43:42,734][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:44:12,742][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:44:12,743][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:44:42,742][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:45:12,743][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:45:12,744][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:45:42,747][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:46:12,749][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:46:12,750][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:46:42,750][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:47:12,751][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:47:12,752][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:47:42,756][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:48:12,756][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:48:12,757][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:48:42,761][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:49:12,763][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:49:12,764][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:49:42,764][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:50:12,767][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:50:12,767][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:50:42,772][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:51:12,772][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:51:12,772][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:51:42,778][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:52:12,777][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:52:12,778][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:52:42,779][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:53:12,784][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:53:12,785][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:53:42,784][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:54:12,786][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:54:12,790][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:54:42,790][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:55:12,794][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:55:12,794][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:55:42,796][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:56:12,801][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:56:12,802][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:56:42,806][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:57:12,808][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:57:12,809][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:57:42,811][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:58:12,815][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:58:12,815][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:58:42,819][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:59:12,821][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 15:59:12,822][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 15:59:42,822][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:00:12,823][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:00:12,824][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:00:42,825][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:01:12,831][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:01:12,832][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:01:42,835][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:02:12,836][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:02:12,836][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:02:42,841][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:03:12,850][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:03:12,851][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:03:42,848][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:04:12,847][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:04:42,863][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:04:42,863][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:05:12,852][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:05:42,854][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:05:42,888][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:06:12,858][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:06:42,863][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:07:12,866][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:07:12,867][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:07:42,871][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:08:12,872][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:08:12,872][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:08:42,875][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:09:12,877][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:09:12,877][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:09:42,882][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:10:12,887][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:10:12,887][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:10:42,890][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:11:12,891][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:11:12,891][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:11:42,890][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:12:12,899][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:12:12,899][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:12:42,898][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:13:12,903][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:13:12,903][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:13:42,909][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:14:12,905][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.4gb[5.2%], shards will be relocated away from this node
+[2015-07-22 16:14:12,905][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:14:42,912][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:15:12,914][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:15:12,914][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:15:42,918][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:16:12,922][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:16:12,924][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:16:42,932][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:17:12,922][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:17:42,927][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.7gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:17:42,928][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:18:12,929][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:18:42,934][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:18:42,934][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:19:12,938][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:19:42,937][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:19:42,938][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:20:12,941][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:20:42,942][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:20:42,943][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:21:12,946][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:21:42,951][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:21:42,952][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:22:12,952][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:22:42,956][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:22:42,957][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:23:12,961][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:23:42,960][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:23:42,961][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:24:12,965][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:24:42,965][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:24:42,966][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:25:12,968][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:25:42,972][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:25:42,972][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:26:12,975][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:26:42,976][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:26:42,976][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:27:12,981][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:27:42,983][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:27:42,983][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:28:12,986][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:28:42,987][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:28:42,987][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:29:12,989][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:29:42,995][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:29:42,996][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:30:12,995][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:30:42,995][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:31:12,998][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:31:13,000][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:31:43,001][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:32:13,004][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:32:13,005][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:32:43,003][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:33:13,008][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:33:13,009][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:33:43,013][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:34:13,014][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:34:13,015][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:34:43,017][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:35:13,022][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:35:13,022][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:35:43,021][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:36:13,022][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:36:13,022][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:36:43,029][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:37:13,029][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:37:13,029][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:37:43,033][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:38:13,038][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:38:13,038][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:38:43,043][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:39:13,049][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:39:13,049][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:39:43,050][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:40:13,053][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:40:13,053][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:40:43,056][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:41:13,060][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 24.6gb[5.3%], shards will be relocated away from this node
+[2015-07-22 16:41:13,061][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:41:43,062][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.6gb[5%], shards will be relocated away from this node
+[2015-07-22 16:42:13,066][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.6gb[5%], shards will be relocated away from this node
+[2015-07-22 16:42:13,067][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:42:43,071][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.6gb[5%], shards will be relocated away from this node
+[2015-07-22 16:43:13,074][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.6gb[5%], shards will be relocated away from this node
+[2015-07-22 16:43:13,074][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:43:43,078][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:44:13,078][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:44:13,078][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:44:43,079][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:45:13,084][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:45:13,084][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:45:43,088][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:46:13,091][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:46:13,092][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:46:43,092][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.5gb[5%], shards will be relocated away from this node
+[2015-07-22 16:47:13,091][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.4gb[5%], shards will be relocated away from this node
+[2015-07-22 16:47:13,092][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:47:43,095][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.4gb[5%], shards will be relocated away from this node
+[2015-07-22 16:48:13,101][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.3gb[5%], shards will be relocated away from this node
+[2015-07-22 16:48:13,103][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:48:43,099][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.3gb[5%], shards will be relocated away from this node
+[2015-07-22 16:49:13,105][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.2gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:49:13,105][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:49:43,103][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.2gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:50:13,108][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.2gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:50:13,109][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:50:43,113][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.2gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:51:13,117][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.1gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:51:13,117][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:51:43,122][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.1gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:52:13,124][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.1gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:52:13,125][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:52:43,127][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.1gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:53:13,129][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23.1gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:53:13,130][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:53:43,131][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:54:13,132][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:54:13,134][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:54:43,136][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:55:13,137][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:55:13,139][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:55:43,140][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:56:13,142][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:56:13,143][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:56:43,146][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 23gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:57:13,148][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.9gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:57:13,148][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:57:43,150][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.9gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:58:13,154][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.9gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:58:13,155][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:58:43,154][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.8gb[4.9%], shards will be relocated away from this node
+[2015-07-22 16:59:13,156][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.6gb[4.8%], shards will be relocated away from this node
+[2015-07-22 16:59:13,157][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 16:59:43,155][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.3gb[4.8%], shards will be relocated away from this node
+[2015-07-22 17:00:13,157][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:00:13,158][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:00:43,158][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:01:13,159][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:01:13,159][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:01:43,163][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:02:13,174][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:02:13,175][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:02:43,171][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:03:13,176][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:03:13,177][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:03:43,176][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:04:13,180][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22.1gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:04:13,181][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:04:43,185][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:05:13,190][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:05:13,191][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:05:43,192][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:06:13,197][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:06:13,197][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:06:43,201][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:07:13,201][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:07:13,202][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:07:43,203][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:08:13,207][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:08:13,208][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:08:43,212][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:09:13,214][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:09:13,215][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:09:43,215][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 22gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:10:13,216][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:10:13,216][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:10:43,223][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:11:13,224][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:11:13,226][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:11:43,224][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:12:13,229][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:12:13,229][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:12:43,230][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:13:13,230][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:13:13,231][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:13:43,231][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:14:13,238][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.9gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:14:13,239][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:14:43,234][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:15:13,235][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:15:43,237][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:15:43,239][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:16:13,242][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:16:43,244][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.7%], shards will be relocated away from this node
+[2015-07-22 17:16:43,245][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:17:13,247][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 21.8gb[4.6%], shards will be relocated away from this node
+[2015-07-22 17:17:43,249][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.8gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:17:43,250][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:18:13,253][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.8gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:18:43,253][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.8gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:18:43,301][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:19:13,257][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:19:43,259][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:20:13,261][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:20:13,261][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:20:43,264][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:21:13,271][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:21:13,271][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:21:43,272][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:22:13,275][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:22:13,275][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:22:43,281][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:23:13,287][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:23:13,288][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:23:43,290][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:24:13,293][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:24:13,293][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:24:43,296][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:25:13,299][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:25:13,300][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:25:43,305][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:26:13,304][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:26:13,305][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:26:43,307][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:27:13,308][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:27:13,308][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:27:43,317][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:28:13,319][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:28:13,319][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:28:43,321][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:29:13,324][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:29:13,324][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:29:43,325][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:30:13,325][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:30:13,325][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:30:43,330][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:31:13,332][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:31:13,333][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:31:43,334][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:32:13,337][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:32:13,337][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:32:43,338][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:33:13,342][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:33:13,343][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:33:43,346][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:34:13,348][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:34:13,349][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:34:43,355][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:35:13,356][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:35:13,357][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:35:43,361][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:36:13,365][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:36:13,366][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:36:43,370][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:37:13,377][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:37:13,378][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:37:43,378][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:38:13,380][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:38:13,381][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:38:43,386][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:39:13,388][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:39:13,389][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:39:43,392][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:40:13,396][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:40:13,397][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:40:43,396][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:41:13,400][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:41:13,401][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:41:43,404][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:42:13,410][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:42:13,410][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:42:43,410][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:43:13,414][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:43:13,416][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:43:43,420][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:44:13,424][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:44:13,425][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:44:43,428][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:45:13,430][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:45:13,430][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:45:43,430][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:46:13,433][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:46:13,434][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:46:43,434][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.7gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:47:13,436][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.6gb[4.4%], shards will be relocated away from this node
+[2015-07-22 17:47:13,436][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:47:43,436][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.4gb[4.3%], shards will be relocated away from this node
+[2015-07-22 17:48:13,437][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 20.1gb[4.3%], shards will be relocated away from this node
+[2015-07-22 17:48:13,438][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:48:43,448][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.9gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:49:13,443][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:49:13,443][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:49:43,448][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:50:13,454][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:50:13,455][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:50:43,457][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:51:13,459][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:51:13,460][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:51:43,465][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:52:13,468][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:52:13,469][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:52:43,471][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:53:13,476][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:53:13,477][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:53:43,480][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:54:13,486][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:54:13,487][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:54:43,491][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:55:13,491][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:55:13,492][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:55:43,498][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:56:13,501][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:56:13,502][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:56:43,505][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:57:13,509][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:57:13,510][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:57:43,510][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:58:13,515][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:58:13,516][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:58:43,520][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:59:13,525][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 17:59:13,526][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 17:59:43,526][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:00:13,529][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:00:13,530][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:00:43,534][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:01:13,534][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:01:13,535][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:01:43,539][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:02:13,544][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:02:13,545][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:02:43,548][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:03:13,554][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:03:13,555][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:03:43,558][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:04:13,559][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:04:13,560][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:04:43,562][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:05:13,563][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:05:13,564][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:05:43,568][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:06:13,573][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:06:13,574][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:06:43,577][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:07:13,579][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:07:13,580][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:07:43,581][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:08:13,582][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:08:13,583][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:08:43,591][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:09:13,591][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:09:13,592][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:09:43,598][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:10:13,603][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:10:13,604][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:10:43,608][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:11:13,608][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:11:13,609][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:11:43,608][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:12:13,612][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:12:13,612][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:12:43,617][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:13:13,621][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:13:13,622][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:13:43,625][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:14:13,626][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:14:13,627][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:14:43,627][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:15:13,636][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:15:13,637][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:15:43,635][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:16:13,641][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:16:13,642][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:16:43,644][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:17:13,650][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:17:13,651][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:17:43,655][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:18:13,661][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:18:13,662][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:18:43,666][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:19:13,670][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:19:13,671][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:19:43,675][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:20:13,675][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:20:13,676][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:20:43,674][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:21:13,686][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:21:13,687][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:21:43,684][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 19.8gb[4.2%], shards will be relocated away from this node
+[2015-07-22 18:22:13,690][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:22:13,691][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:22:43,696][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:23:13,699][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:23:13,700][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:23:43,705][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:24:13,708][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:24:13,709][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:24:43,715][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:25:13,718][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:25:13,719][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:25:43,722][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:26:13,726][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:26:13,727][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:26:43,727][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:27:13,731][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:27:13,732][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:27:43,736][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:28:13,741][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:28:13,741][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:28:43,743][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:29:13,744][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:29:13,745][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:29:43,745][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:30:13,750][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:30:13,751][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:30:43,752][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:31:13,757][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:31:13,757][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:31:43,763][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:32:13,766][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:32:13,767][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:32:43,768][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:33:13,769][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:33:13,769][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:33:43,770][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:34:13,774][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:34:13,775][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:34:43,778][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:35:13,782][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:35:13,782][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:35:43,787][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:36:13,791][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:36:13,791][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:36:43,795][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:37:13,798][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:37:13,798][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:37:43,804][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:38:13,804][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:38:13,804][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:38:43,808][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:39:13,813][WARN ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark [90%] exceeded on [G7zKSmv8RveT3Xp9x483SQ][Nick Fury] free: 18.8gb[4%], shards will be relocated away from this node
+[2015-07-22 18:39:13,814][INFO ][cluster.routing.allocation.decider] [Nick Fury] high disk watermark exceeded on one or more nodes, rerouting shards
+[2015-07-22 18:39:40,542][INFO ][node                     ] [Nick Fury] stopping ...
+[2015-07-22 18:39:40,698][INFO ][node                     ] [Nick Fury] stopped
+[2015-07-22 18:39:40,698][INFO ][node                     ] [Nick Fury] closing ...
+[2015-07-22 18:39:40,715][INFO ][node                     ] [Nick Fury] closed

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -z "$1" ]; then
+	master_host_arg="-A $1"
+fi
+
+sudo sh ./install_salt.sh $master_host_arg
